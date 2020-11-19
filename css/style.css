@@ -1,73 +1,143 @@
+body{
+  text-align:center;
+  font-family:Open Sans,sans-serif;
+  background-color:#8a71c9;
+  color:#ffffff;
+  margin: 0px;
+}
 
-    body{
-      text-align:justify;
-      font-family:Open Sans,sans-serif;
-      background-color:#8a71c9;
-      color:#ffffff;
-      margin: 0;
-    }
-    
-   
+h2{
+  color:#2a0074;
+  font-size: 40px;
+}
 
-    h1{
-      color:#2a0074;
-      text-align:center
-    }
+.titulo-verde{
+  color:#04ff9f;
+}
 
-    h1{
-      font-weight:300
-      font-size:60px;
-    }
+.titulo-vermelho{
+  color:#FF9E9E;
+}
 
-    h2{
-      color:#8ce4e6;
-      text-align:center
-    }
+.titulo-amarelo{
+  color:#ffe36d;
+}
 
-    h3{
-      font-size:22px;
-      font-style: italic;
-      text-align: center;
-    }
-    
-    .titulo-verde{
-      color:#04ff9f;
-    }
-    
-    .titulo-vermelho{
-      color:#FF9E9E;
-    }
-    
-    .titulo-amarelo{
-      color:#ffe36d;
-    }
+section{
+    width:60%;
+    margin:0 auto;
+}
 
-    section{
-      background-color: #3a3547;
-      max-width:60%;
-      margin: 0 auto;
-      
-    }
-  
-    p{
-      line-height: 1.5;
-      font-size: 15px;
-    }
-    
-    img{
-      width: 100%;
-    }
+section section{
+  width: 100%;
+}
 
-    ul{
-      list-style-type: none;
-      text-align: center;
-      line-height: 2;
-      padding-left: 0;
-    }
+h1{
+  font-size: 60px;
+  font-weight: 300;
+}
 
-    a{
-      text-decoration: none;
-      color: #99ffff;
-      font-weight: 700;
-    }
+h3{
+  font-size:22px;
+  font-style: italic;
+}
+
+
+p{
+  line-height: 1.5;
+  font-size: 20px;
+  text-align:justify
+}
+
+img{
+  width: 100%;
+}
+
+ul{
+  list-style-type: none;
+  line-height: 2;
+  padding-left: 0;
+}
+
+a{
+  text-decoration: none;
+  color:  #99ffff;
+  font-weight: 700;
+}
+
+.principal{
+  background: #ff6cb5;
+  height: 40px;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.principal a{
+  color: #fff;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.principal li{
+  display: inline-block;
+  line-height: 2.5;
+  margin: 0 89px;   
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+input, textarea {
+  /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+  font: 1em sans-serif;
+
+  /* Para dar o mesmo tamanho a todos os campo de texto */
+  width: 300px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  /* Para harmonizar o look & feel das bordas nos campos de texto*/
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  /* Dar um pouco de destaque nos elementos ativos */
+  border-color: #000;
+}
+
+textarea {
+  /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
+  vertical-align: top;
+
+  /* Para dar espaço suficiente para digitar algum texto */
+  height: 5em;
+
+  /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
+  resize: vertical;
+}
+
+.button {
+  /* Para posicionar os botões para a mesma posição dos campos de texto */
+  padding-left: 90px; /* mesmo tamanho que os elementos do tipo label */
+}
+button {
+  /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/
+  margin-left: .5em;
+}
+
+button{
+    background: #bdd1bd;
+    border: 1px solid transparent;
+    padding: 2px 20px;
+    border-radius: 3px;
+}
 
